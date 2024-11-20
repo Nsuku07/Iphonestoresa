@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iDeal Phones - iPhones and Electronics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #16a085;
+            border-radius: 5px;
+        }
+
+        .main-section {
+            padding: 30px;
+        }
+
+        .main-section h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .product-category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .category-item {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .category-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .category-item button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .category-item button:hover {
+            background-color: #16a085;
+        }
+
+        .account-form,
+        .checkout-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        .account-form input,
+        .checkout-form input,
+        .checkout-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-details {
+            text-align: center;
+            background-color: #ecf0f1;
+            padding: 20px;
+        }
+
+        .contact-details p {
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
+        .contact-details a {
+            color: #16a085;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="ideal-phones-logo.png" alt="iDeal Phones Logo">
+        </div>
+        <h1>Welcome to iDeal Phones</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#iphones">iPhones</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="#tablets">Tablets & iPads</a></li>
+            <li><a href="#wearables">Wearables</a></li>
+            <li><a href="#account">Account</a></li>
+            <li><a href="#checkout">Checkout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-section" id="home">
+        <h2>Featured Promo Products</h2>
+        <div class="product-category">
+            <div class="category-item">
+                <img src="iphone-13-61-512-gb-4-gb-ram-red.jpg" alt="iPhone 13">
+                <p>iPhone 13 - On Sale</p>
+                <p>R7499.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="category-item">
+                <img src="pictures/ld0005743654_1_5.jpg" alt="iphone 12">
+                <p>iPhone 12 - On Sale</p>
+                <p>R4999.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- iPhones Section -->
+    <div class="main-section" id="iphones">
+        <h2>iPhones</h2>
+        <div class="product-category">
+            <div class="category-item">
+                <h3>Latest Models</h3>
+                <img src="iphone-14.jpg" alt="iPhone 14">
+                <button>View Models</button>
+            </div>
+            <div class="category-item">
+                <h3>Refurbished</h3>
+                <img src="iphone-13-refurbished.jpg" alt="Refurbished iPhone 13">
+                <button>View Models</button>
+            </div>
+            <div class="category-item">
+                <h3>Used</h3>
+                <img src="NMNKGMQXJVNRFPIDVCIQO66DIQ.jpg" alt="Used iPhone 12">
+                <button>View Models</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accessories Section -->
+    <div class="main-section" id="accessories">
+        <h2>Accessories</h2>
+        <div class="product-category">
+            <div class="category-item">
+                <h3>Cases</h3>
+                <button>View Cases</button>
+            </div>
+            <div class="category-item">
+                <h3>Screen Protectors</h3>
+                <button>View Protectors</button>
+            </div>
+            <div class="category-item">
+                <h3>Headphones</h3>
+                <button>View Headphones</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Account Registration Form -->
+    <div class="account-form" id="account">
+        <h2>Create an Account</h2>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Full Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <select required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <button>Create Account</button>
+    </div>
+
+    <!-- Checkout Form -->
+    <div class="checkout-form" id="checkout">
+        <h2>Checkout</h2>
+        <select>
+            <option value="">Select Delivery Method</option>
+            <option value="courier">Courier</option>
+            <option value="paxi">Paxi (Store Collection)</option>
+        </select>
+        <select>
+            <option value="">Select Store Location (if Paxi)</option>
+            <option value="store1">Store 1</option>
+            <option value="store2">Store 2</option>
+        </select>
+        <button>Proceed to Payment</button>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search for products...">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 iDeal Phones. All rights reserved.</p>
+        <p><a href="#contact">Contact
